@@ -1,6 +1,6 @@
 package edu.cmu.cs.cs214.lab02;
 
-import edu.cmu.cs.cs214.lab02.shapes.*;
+import edu.cmu.cs.cs214.lab02.shapes.Rectangle;
 
 public class Renderer {
     public Rectangle rectangle;
@@ -14,6 +14,6 @@ public class Renderer {
 
         // assume implementation
 
-        System.out.println("Shape printed\n" + "Its area is " + area);
+        System.out.println("Shape printed\n Its area is " + area);
     }
 }
